@@ -1,7 +1,7 @@
 require './forest'
 require './highway'
-require './parking_lot'
-require './house'
+# require './parking_lot'
+# require './house'
 
 class Runner
 
@@ -9,11 +9,9 @@ class Runner
     @mazes = [
       Forest.new,
       Highway.new,
-      ParkingLot.new,
-      House.new
+      # ParkingLot.new,
+      # House.new
     ]
-
-    @alive = true
   end
 
   def play
